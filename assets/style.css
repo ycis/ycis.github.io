@@ -15,12 +15,13 @@ h3 {
 .container {
     width: 100%;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 100 auto;
     background-color: white;
     clear: both;
 }
-.myNav {
+
+/* .myNav {
     background-color: #4aaaa5;
     text-align: center;
     color: #fff;
-}
+} */
