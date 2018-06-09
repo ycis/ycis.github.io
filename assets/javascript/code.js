@@ -6,11 +6,9 @@ function returnLocString () {
 }
 
 $(document).ready(function () {
-    $(function(){
-        $("#nav-placeholder").load("nav.html");
-    });
+    $("#nav-placeholder").load("nav.html");
+    var location;
+    location = "#" + returnLocString();
+    $(".nav-link").removeClass("active");
+    $(location).addClass("active");
 })
-var location;
-location = "#" + returnLocString();
-$(".nav-link").removeClass("active");
-$(location).addClass("active");
